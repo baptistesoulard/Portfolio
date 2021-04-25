@@ -124,7 +124,7 @@ img, img:hover {
     top: 0px;
     width: 80px;
     height: 100%;
-    border-right: solid rgba(0, 0, 0, 0.07) 1px;
+    border-right: solid rgba(92, 219, 149, 1) 1px;
     z-index: 1022;
     background:#fff;
 }
@@ -150,7 +150,7 @@ img, img:hover {
             position: absolute;
             width: 18px;
             height: 2px;
-            background: #292C30;
+            background: #05386B;
             border-radius: 1px;
         }
         &:before {
@@ -178,12 +178,12 @@ img, img:hover {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(8, 11, 16, 0);
+    background: rgba(237, 245, 225, 0.5);
     z-index: -1;
     animation: animate2 .3s;
     &.active {
             z-index: 4;
-            background: rgba(8, 11, 16, 0.7);
+            background: rgba(237, 245, 225, 1);
             animation: animate .3s;
     }
 }
