@@ -1,7 +1,7 @@
 # Site
 name: "Memoirs"
 title: "Memoirs"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
+description: "Welcome on Baptiste's website!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /Portfolio
@@ -30,6 +30,14 @@ authors:
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
     description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+  baptiste:
+    name: Baptiste
+    display_name: Baptiste
+    avatar: 'assets/images/avatar-baptiste.png'
+    email: soulard.baptiste.bs@gmail
+    web: https://www.linkedin.com/in/baptistesoulard1994/
+    twitter:
+    description: "Open-minded lean and change management engineer in China, he focuses on improving and deploying business processes and associated IS tools to boost value creation."
 
 # Plugins
 plugins:

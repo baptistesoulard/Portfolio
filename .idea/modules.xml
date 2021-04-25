@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Production-plan-optimization/.idea/Production-plan-optimization.iml" filepath="$PROJECT_DIR$/../Production-plan-optimization/.idea/Production-plan-optimization.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TestJekyll.iml" filepath="$PROJECT_DIR$/.idea/TestJekyll.iml" />
     </modules>
   </component>
