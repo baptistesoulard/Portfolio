@@ -128,7 +128,6 @@ Now that we understand how to calculate the value of early production, we can cr
 
 ### Constraints
 In the previous models, we have set some constraints to force the planning on the required delivery date. This time, we will remove this constraint as we want to allow early planning. However, as customer satisfaction is our number one priority, we want to prevent late planning. To do so, the easiest way is simply to limit the lower bound of our ***early production**** variable to zero.
-
 This had already been done when defining the variable, we can just remove the constraints set for the previous models regarding on-time scheduling.
 
 ### Objective function
@@ -175,13 +174,10 @@ This time, we can observe that our solution tends to level the production during
 
 ---
 # Comparison of the three models
-<img src="../assets/images/productionscheduling2-image-5.png"     alt="Illustration"     style="float: left; margin-right: 10px;" />
-<figcaption>Comparison of the 3 models</figcaption>
+<img src="../assets/images/productionscheduling2-image-5.png"     alt="Illustration of early production calculation"     style="float: left; margin-right: 10px;" />
 
 Finally, these three optimizations models gave us different results. The output of the two first models is erroneous because we did not inform our algorithm of the extra costs and we did not allow early planning. The cost of the planning proposed by these two first models is about 5000$ higher than the one proposed by the third model.
-
 **To conclude, it is an absolute necessity to build extensive models considering all of the constraints happening in real life to draw meaningful conclusions with your optimization algorithms.**
-
 Feel free to contact me if you need further information or if you want to exchange views on this subject. You can reach me on [LinkedIn](https://www.linkedin.com/in/baptistesoulard1994/).
 
 # Resources
